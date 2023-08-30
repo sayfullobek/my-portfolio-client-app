@@ -1,5 +1,37 @@
-import { ABOUT, BANNER, BRAND1, BRAND2, BRAND3, BRAND4, BRAND5, BRAND6, BRAND7, BRAND8, BRAND9, LOGO, P1, P2, P3, P4, P5, P6, P7, P8, P9, SERVICE1, SERVICE2, SERVICE3, SERVICE4, T1, T2 } from "./Imgs"
+// import { ABOUT, BANNER, BRAND1, BRAND2, BRAND3, BRAND4, BRAND5, BRAND6, BRAND7, BRAND8, BRAND9, LOGO, P1, P2, P3, P4, P5, P6, P7, P8, P9, SERVICE1, SERVICE2, SERVICE3, SERVICE4, T1, T2 } from "./Imgs"
 import {Link} from 'react-router-dom'
+// import LOGO from '../assets/img/logo.png';
+import BANNER from '../assets/img/banner/home-right.png';
+import ABOUT from '../assets/img/about-us.png';
+
+import BRAND1 from '../assets/img/brands/logo1.png'
+import BRAND2 from '../assets/img/brands/logo2.png'
+import BRAND3 from '../assets/img/brands/logo3.png'
+import BRAND4 from '../assets/img/brands/logo4.png'
+import BRAND5 from '../assets/img/brands/logo5.png'
+import BRAND6 from '../assets/img/brands/logo6.png'
+import BRAND7 from '../assets/img/brands/logo7.png'
+import BRAND8 from '../assets/img/brands/logo8.png'
+import BRAND9 from '../assets/img/brands/logo9.png'
+
+import SERVICE1 from '../assets/img/services/s1.png'
+import SERVICE2 from '../assets/img/services/s2.png'
+import SERVICE3 from '../assets/img/services/s3.png'
+import SERVICE4 from '../assets/img/services/s4.png'
+
+// import P1 from '../assets/img/portfolio/p1.jpg'
+// import P2 from '../assets/img/portfolio/p2.jpg'
+// import P3 from '../assets/img/portfolio/p3.jpg'
+// import P4 from '../assets/img/portfolio/p4.jpg'
+// import P5 from '../assets/img/portfolio/p5.jpg'
+// import P6 from '../assets/img/portfolio/p6.jpg'
+// import P7 from '../assets/img/portfolio/p7.jpg'
+// import P8 from '../assets/img/portfolio/p8.jpg'
+// import P9 from '../assets/img/portfolio/p9.jpg'
+
+import T1 from '../assets/img/testimonials/t1.jpg'
+import T2 from '../assets/img/testimonials/t2.jpg'
+
 
 export const Primary = ()=>{
     return(
@@ -500,10 +532,10 @@ export const Primary = ()=>{
                             O'zingizni qiziqtirgan savol yoki shikoyatlarni qoldiring 
 						</p>
 						<div className="subcribe-form" id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" className="subscription relative">
-								<input name="EMAIL" placeholder="Email" onFocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required type="email" />
+							<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" className="subscription relative">
+								<input name="EMAIL" placeholder="Email" required type="email" />
 								<div style={{position: "absolute", left: "-5000px"}}>
-									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a" value="" type="text" />
 								</div>
 								<button className="primary-btn hover d-inline">Yuborish</button>
 								<div className="info"></div>
